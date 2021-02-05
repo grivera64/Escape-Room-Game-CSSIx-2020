@@ -9,4 +9,7 @@ We used the  **p5 JavaScript library** to build an *Escape Room Game*. In this g
 ## Setup
 If you would like to setup and run this project, you can download the repository and open the index.html file in your preferred web browser.
 
+###Issues
+Currently, the music isn't working unless hosted on a website server, so it has been removed.
+
 # Have Fun!
