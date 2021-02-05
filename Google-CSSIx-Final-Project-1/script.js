@@ -34,7 +34,7 @@ let enteredWords
 
 let onMainScreen = false
 
-var song 
+//var song 
 
 let songPlaying = false
 
@@ -51,8 +51,8 @@ let SETTING_TIME = 7500
 //Pre-Load Function 
 function preload() {
 
-  //change song PLEASE
-  song = loadSound("Volume Alpha - 03 - Subwoofer Lullaby.mp3");
+  //song is not working at the moment
+  //song = loadSound("Volume Alpha - 03 - Subwoofer Lullaby.mp3");
   
 }
 
@@ -134,10 +134,10 @@ function draw() {
   if (win) {
     winScreen()
   }
-  if (!songPlaying) {
-    song.play()
-    songPlaying = true
-  }
+//   if (!songPlaying) {
+//     song.play()
+//     songPlaying = true
+//   }
 
 }
 
