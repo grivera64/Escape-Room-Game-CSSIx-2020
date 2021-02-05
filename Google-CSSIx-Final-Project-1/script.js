@@ -38,7 +38,6 @@ var song
 
 let songPlaying = false
 
-//let soundeffect1
 
 let slider 
 
@@ -54,8 +53,6 @@ function preload() {
 
   //change song PLEASE
   song = loadSound("Volume Alpha - 03 - Subwoofer Lullaby.mp3");
-
-  //soundeffect1 = loadSound("Fart-Squeeze-Yer-Knees_Mike-Koenig.mp3"); 
   
 }
 
@@ -193,7 +190,6 @@ function mouseClicked() {
   //when you click the box itll disappear
   hit = collideRectRect(greenRectangle.x, greenRectangle.y, 50, 50, mouseX, mouseY, 20, 20)
   if (hit) {
-    //soundeffect1.play() 
     if (boxesLeft > 0) {
       greenRectangle.reset()
       updateBoxesLeft()
