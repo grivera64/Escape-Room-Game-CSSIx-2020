@@ -132,6 +132,7 @@ function draw() {
   }
 
   if (win) {
+    allBoxesCollected = false;
     winScreen()
   }
   // if (!songPlaying) {
@@ -320,7 +321,7 @@ function keyTyped() {
     onStartScreen = false
   }
 
-  if (key === 'r' && gameIsOver) {
+  if (key === 'r' && !allBoxesCollected) {
     reset()
   }
 
